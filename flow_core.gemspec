@@ -22,6 +22,6 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "acts_as_list", "~> 1.0"
   spec.add_dependency "ancestry", "~> 3.0"
-  spec.add_dependency "rails", "~> 6.0"
+  spec.add_dependency "rails", ['>= 6.0', '< 8.0']
   spec.add_dependency "rgl", "~> 0.5"
 end
